@@ -1,0 +1,112 @@
+body{
+    background-color: #fcf8ec;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #456268;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: baseline;
+}
+
+header h1 {
+    width: 400px;
+    margin: 30px 40px;
+    font-weight: 700;
+}
+
+header p{
+    width: 400px;
+    margin: 30px 40px;
+    font-weight: 200;
+}
+
+.description{
+    background-color: #79a3b1;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.education{
+    margin: 50px/50px;
+    padding: 30px;
+    width: 60%;
+    display: inline-block;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+dt{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+dd{
+    font-size: 18px;
+}
+
+.profile-pic{
+    width: 30%;
+    display: inline-block;
+    margin-top: 50px;
+   
+  
+}
+.profile-pic img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 1em 2em 0.4em #d0e8f2;
+    
+}
+
+.skills{
+    margin: 50px/50px;
+    padding: 30px;
+    width: 60%;
+   
+}
+.list-sk{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.list-item{
+    margin-top: 15px ;
+    
+}
+
+.list-item::before{
+    content: " ♥  "; color: #ea2c62
+    
+}
+
+.social-m{
+    margin: 50px/50px;
+    padding: 30px;
+    width: 60%;
+
+}
+
+.list-sm{
+    list-style: none;
+}
+
+.sm-item{
+    margin-top: 15px;
+}
+
