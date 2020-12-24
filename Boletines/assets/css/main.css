@@ -1,0 +1,159 @@
+html{
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+
+    text-decoration: none;
+    color: #E8469C;
+}
+
+
+.table{
+
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table td, .table th{
+
+    text-align: left;
+    padding: 1em;
+}
+
+.table tr:nth-child(even){
+
+    background-color: #D0C6D2;
+
+}
+
+.container{
+ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #44A08D;  
+    background: -webkit-linear-gradient(to right, #093637, #44A08D); 
+    background: linear-gradient(to right, #093637, #44A08D); 
+    
+}
+
+
+.content{
+    max-width: 960px;
+    height: 70vh;
+    width: 100%;
+    background-color: #E6EFE9;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgb(0,0,0,0.23);
+    position: relative; /* No cambia su pocisión ya dada por su elemento padre, pero activa los atributos: top, right, bottom y left para los elementos hijos de este elemento*/
+    padding: 1em;
+    overflow-y: scroll;
+    font-size: 1em
+   
+}
+
+.fa-star{
+
+    color: #fd8c04;
+}
+
+.title-item{
+    border-bottom: solid 2px #0E4749 ;
+    padding-bottom: 1em;
+    font-size: 1em;
+   
+}
+
+.position{
+
+    margin-right: 0.2em;
+    padding: 0.2em;
+    background-color: #093637 ;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.title{
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragraph{
+
+    line-height: 1.8em;
+    font-weight: 200;
+}
+
+.main-image{
+
+    float: left;
+    margin-right: 16px;
+    max-width: 100%;
+}
+
+.action{
+    position: absolute; /*Como su padre es un relative, podemos mover este objeto hijo a cualquier parte del objeto padre por la pocision absolute*/
+    top: 1em;
+    right: 1em;
+}
+
+.link-content{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #542344;
+    border-radius: 50%;
+    font-weight: 300;
+    display: inline-block; /*Afecta al boton, elemento padre*/
+    display: flex;         /*Afecta a los hijos del elemento boton*/
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+@media (max-width:600px){
+   th{
+       display: none;
+   }
+
+   td{
+       width: 100%;
+       display: block;
+   }
+
+   td:nth-of-type(1){
+       font-size: 1.5em;
+       font-weight: 700;
+       color: teal;
+   }
+}
+
+@media (min-width:900px){
+    .content{
+        padding: 1.8em;
+        font-size: 1rem;
+        overflow: hidden;
+      
+    }
+    .position{
+        margin-right: 0.5em;
+        padding: 0.5em ;
+    }
+
+    a:hover{
+        opacity: 0.6;
+    }
+    a:active{
+        color: #3684B3;
+    }
+
+    .main-image{
+        height: 250px;
+    }
+ 
+}
