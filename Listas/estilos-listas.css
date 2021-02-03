@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    position: relative;
+    background: #642B73; 
+    background: -webkit-linear-gradient(to right, #C6426E, #642B73); 
+    background: linear-gradient(to right, #C6426E, #642B73);
+    font-family: 'Zilla Slab', serif;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 85%;
+    height: 70%;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 25px 40px ;
+    overflow-y:scroll;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 2px solid #642B73;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.style-list{
+    background-color: rgb(236, 230, 230);
+    width: 200px;
+    height: 180px;
+    display: inline-block;
+    padding: 20px 35px;
+    margin:10px;
+}
+
+.title-list{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1em;
+    margin-bottom: 10px;
+    height: 50px;
+
+}
+
+ul, ol {
+    list-style-position: inside;
+  }
+  
+  li {
+  
+    height: 30px;
+  }
+
+.disc-list{
+    list-style: disc;
+}
+
+.cjk-ideographic-list{
+    list-style-type: cjk-ideographic;
+}
+
+.decimal-list{
+    list-style-type: decimal;
+}
+
+.decimal-leading-zero-list{
+    list-style-type: decimal-leading-zero;
+}
+
+.georgian-list{
+    list-style-type:georgian;
+}
+
+.hebrew-list{
+    list-style-type: hebrew;
+}
+
+.hiragana-list{
+    list-style-type: hiragana;
+}
+
+.hiragana-iroha-list{
+    list-style-type: hiragana-iroha;
+}
+
+.katakana-list{
+    list-style-type: katakana;
+}
+
+.katakana-iroha-list{
+    list-style-type: katakana-iroha;
+}
+
+.lower-alpha-list{
+    list-style-type: lower-alpha;
+}
+
+.none-list{
+    list-style-type: none;
+}
+
+.upper-roman-list{
+    list-style-type: upper-roman;
+}
+
+.circle-list{
+    list-style-type:circle;
+}
+
+.square-list{
+    list-style-type: square;
+}
+
+.lower-roman-list{
+    list-style-type: lower-roman;
+}
+
+.upper-latin-list{
+    list-style-type: upper-latin;
+}
+
+.lower-latin-list{
+    list-style-type: lower-latin;
+}
+
+.armenian-list{
+    list-style-type: armenian;
+}
+
+.upper-alpha-list{
+    list-style-type: upper-alpha;
+}
+
+.initial-list{
+    list-style-type: initial;
+}
+
+.inherit-list{
+    list-style-type: inherit;
+}
