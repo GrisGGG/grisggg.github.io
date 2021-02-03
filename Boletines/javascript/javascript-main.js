@@ -13,7 +13,7 @@ let action = document.querySelectorAll('.action');
     content.classList.add('animate__animated');
 
       setTimeout(function () {//Redirecciona a la página de inicio
-      location.href= './Boletines' ;
+      location.href= '/Boletines' ;
       }, 600);
   } )
 });
