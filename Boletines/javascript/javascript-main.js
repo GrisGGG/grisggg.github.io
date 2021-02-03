@@ -1,5 +1,20 @@
-console.log("Hola mundo");
+let action = document.querySelectorAll('.action');
 
-let links = document.querySelectorAll("a");
+action.forEach(function(el){
+  el.addEventListener('click', function(ev) {
+    ev.preventDefault();
 
-console.log(links);
+    let content = document.querySelector('.content');
+
+    content.classList.remove('animate__fadeInDown');
+    content.classList.remove('animate__animated');
+
+
+    content.classList.add('animate__fadeOutDownBig');
+    content.classList.add('animate__animated');
+
+    setTimeout(function () {
+      location.href= '/' ;
+    }, 600);
+  } )
+});
