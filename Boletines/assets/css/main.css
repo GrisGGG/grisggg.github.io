@@ -69,6 +69,7 @@ a{
 
 .position{
 
+
     margin-right: 0.2em;
     padding: 0.2em;
     background-color: #093637 ;
@@ -154,6 +155,9 @@ a{
 
     .main-image{
         height: 250px;
+      
+    
     }
  
 }
+
