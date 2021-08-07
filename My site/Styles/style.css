@@ -19,21 +19,14 @@ h2{
     font-weight: normal;
 }
 .top-container{
-    background-color: #C1F7DC;
-    color:  #66BFBF;
+    background-color: #8fb4a6;
+    color: #EFE3D0;
     text-align: center;
     position: relative;
     padding-top: 100px;
 }
-.top-cloud{
-    position: absolute;
-    top: 80px;
-    right: 300px;
-}
-.bottom-cloud{
-    position: absolute;
-    bottom:250px;
-    left: 300px;
+.ride{
+    height: 300px;
 }
 
 h2, a{
@@ -110,7 +103,7 @@ h3{
 }
 
 hr{
-    border: 5px dotted #cbd1cc;
+    border: 5px dotted #CDBBA7;
     margin-top: 100px;
     margin-bottom: 100px;
     width: 5%;
@@ -124,14 +117,14 @@ hr{
     margin-bottom: 50px;
 }
 .bottom-container {
-    background-color: #66BFBF;
+    background-color: #8fb4a6;
     padding: 50px;
     margin-top: 100px;
  
 }
 .bottom-container >a{
     font-size:  1.275rem;
-    color: #11999E;
+    color:#986D8E;
     font-weight: bold;
     text-decoration: none;
     padding: 15px;
