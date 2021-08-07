@@ -1,0 +1,152 @@
+body{
+    font-family: 'Zilla Slab', serif;
+    margin: 0;
+    text-align: center;
+    font-size:  1.275em;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.375rem;/*Un em es igual a 16px, es una medida dinámica, cambia conforme el tamaño de la pantalla*/
+    font-weight: 700;
+    margin: 50px auto 50px auto;
+}
+h2{
+    font-size: 2.375rem;
+}
+
+.top-container > p{
+    font-size:2.375rem ;
+    font-weight: normal;
+}
+.top-container{
+    background-color: #C1F7DC;
+    color:  #66BFBF;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom:250px;
+    left: 300px;
+}
+
+h2, a{
+    color: #66BFBF;
+  /*  font-size: 3.376rem;*/
+}
+h3{
+    color: #11999E;
+}
+.img-profile{
+    width: 250px;
+    height: 270px;
+    border-radius: 53% 47% 49% 51% / 55% 51% 49% 45% ;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 15px;
+}
+.skill-row > h3{
+    font-size: 1.47rem;
+}
+
+.html-logo{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    height: 100%;
+}
+.css-logo{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.js-logo{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.profile >p{
+    width: 30%;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 2;
+}
+.btn{
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #25B399);
+    background-image: -moz-linear-gradient(top, #66BFBF, #25B399);
+    background-image: -ms-linear-gradient(top, #66BFBF, #25B399);
+    background-image: -o-linear-gradient(top, #66BFBF, #25B399);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #25B399);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+hr{
+    border: 5px dotted #cbd1cc;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 5%;
+    border-top: none;
+}
+.contact-me > p{
+    color: #11999E ;
+    font-size: 1.35rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px;
+    margin-top: 100px;
+ 
+}
+.bottom-container >a{
+    font-size:  1.275rem;
+    color: #11999E;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.bottom-container > p{
+    width: 30%;
+    line-height: 2;
+    color: #EAF6F6;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+}
+#text-contact{
+    color: black;
+    font-weight: normal;
+    width: 40%;
+    margin: 50px auto;
+}
