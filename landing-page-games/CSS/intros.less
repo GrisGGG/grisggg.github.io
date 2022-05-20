@@ -1,3 +1,6 @@
+@import "globales.less";
+@import "articulos.less";
+
 .intro{
     width: 1340px;
     height: 650px;
@@ -26,11 +29,13 @@
     &__categoria{
     font-family: @Fuente2;
     text-transform: uppercase;
+    color: fade(@color-claro, 50%);
     }
     &__titulo{
     font-family: @Fuente2;
     text-transform: uppercase;
     font-size: 50px;
+    line-height: @Fuente-base + 30%;
     }
     &__autor{
     width: 150px;
@@ -49,6 +54,9 @@
         }
         span{
             display: inline-block;
+        }
+        &-titulo{
+            color: fade(@color-claro, 50%);
         }
     }
 }
