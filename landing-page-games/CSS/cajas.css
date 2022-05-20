@@ -1,0 +1,38 @@
+.sombra-caja {
+  box-shadow: 0px 5px 15px 0px rgba(51, 51, 51, 0.1);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 28px;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+.contenedor--cajas {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.caja {
+  max-width: 430px;
+}
+.sombra-caja .caja__contenido {
+  padding: 25px;
+  background-color: #fff;
+}
+.caja span {
+  color: #8841da;
+}
+.caja a {
+  text-decoration: none;
+  color: #012179;
+}
